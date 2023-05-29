@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Prihealthsuite">
+<listeners>
+<listener class-name="com.prihelath.qa.Extentreportlistener.ExtentReportNG"></listener>
+</listeners>
+  <test thread-count="5" name="PrihealthTest">
+    <classes>
+      <class name="com.prihealth.qa.testcases.LoginpageTest"/>
+      <class name="com.prihealth.qa.testcases.HomepageTest"/>
+    </classes>
+  </test> <!-- PrihealthTest -->
+</suite> <!-- Prihealthsuite -->
